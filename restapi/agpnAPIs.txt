@@ -1,0 +1,42 @@
+1. /login (http://52.66.183.28:8080/Fynicx/login?regId=QWER1234&password=9876543201)
+	
+	response - {"code": 1, "otp": "701977", "message":"Invalid Registration ID"}
+
+	*note : 1. password will be phone number
+		2. send 'message' for failed login attempts accordingly to display on app : 
+		   code : 0 ("Student not registered" or "Incorrect Password")
+		   code : 1 (successful login, no message required)
+		3. send OTP as of now for testing. 
+		
+-------------------
+
+2. /verifyOtp (http://52.66.183.28:8080/Fynicx/verifyOtp?regId=QWER1234&otp=701977)
+	
+
+	response - {"code": 1, "regId": "QWER1234", "name": "Sujith Akhi", "phone":"9876543201", "motherName":"Uma Ottappa", "fatherName":"Somnath Ottappa", "bloodGroup":"B+", "dob":"", "gender": "2"}
+
+	*note : 1. No need of message on this api, we will take care of it
+		2. Code : 1 (otp verified successfully)
+		2. Code : 0 (wrong otp)
+
+-------------------
+
+3. /resendOtp (http://52.66.183.28:8080/Fynicx/resendOtp?regId=QWER1234)
+
+	response - {"code": 1, "otp": 701977}
+	
+		*note : 1. No need of message on this api, we will take care of it
+		2. Code : 1 (otp sent successfully)
+		2. Code : 0 (some issue on the server)
+
+
+Sujit
+
+4. /notices (http://52.66.183.28:8080/Fynicx/notices)
+   response - {"code": 1, "date": "2017-10-26", "subject":"Subject of notice", "desc":"descrition"}
+
+5. /class (http://52.66.183.28:8080/Fynicx/selectClass?)
+   response - {"id": "1", "class": "1"}
+
+6. /class (http://52.66.183.28:8080/Fynicx/selectSection?class=11)
+   response - {"id": "1", "section": "1"}

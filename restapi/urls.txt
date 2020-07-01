@@ -1,0 +1,35 @@
+1. /login (http://52.66.183.28:8080/Fynicx/login?regId=QWER1234&password=9876543201)
+
+   URI- http://maxcin.in/fynicx/agpn/login?admission_number=701&father_mobile=9647909258
+
+
+2. /verifyOtp (http://52.66.183.28:8080/Fynicx/verifyOtp?regId=QWER1234&otp=701977)
+
+  URI- http://maxcin.in/fynicx/agpn/verifyOtp?regId=701&otp=816054
+
+
+3. /resendOtp (http://52.66.183.28:8080/Fynicx/resendOtp?regId=QWER1234)
+
+      http://maxcin.in/fynicx/agpn/resendOtp?regId=701
+
+4. /notices (http://52.66.183.28:8080/Fynicx/notices)
+     
+      http://maxcin.in/fynicx/agpn/notices
+
+5. /class (http://52.66.183.28:8080/Fynicx/selectClass?)
+   
+       http://maxcin.in/fynicx/agpn/selectClass
+
+6. /section (http://52.66.183.28:8080/Fynicx/selectSection?class=11)
+
+    http://maxcin.in/fynicx/agpn/selectSection?class=11
+
+7. /section (http://52.66.183.28:8080/Fynicx/attendanceRegister?class=11&section=21)
+
+    http://maxcin.in/fynicx/agpn/attendanceRegister?class=11&section=21
+
+7. /section (http://52.66.183.28:8080/Fynicx/attendanceRegister?class=11&section=21)
+
+    http://maxcin.in/fynicx/agpn/updateAttendance?class=11&section=21&stId=601&atnStatus=1&createdBy=createdBy
+   
+       

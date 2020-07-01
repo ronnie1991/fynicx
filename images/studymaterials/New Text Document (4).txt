@@ -1,0 +1,100 @@
+service_brief_details
+
+id
+sub_service
+Service_cover (Service Assured)(text area)(CK Editor)
+what it include (What’s included with this service?) (text area)(CK Editor)
+//image
+
+//image
+What makes us unique (text area)(CK Editor)
+//image
+form_img
+status
+in_time
+updated
+
+Service_charge
+
+id
+service_id
+sub_service(text)
+service_charge(int)
+service_unit(text)
+price_chart(CK Editor)
+status
+in_time
+update
+
+
+
+multiple ck editor
+
+
+<textarea name="editor1" class="ckeditor"></textarea>
+   <script type="text/javascript">
+      CKEDITOR.replace( 'editor1' );
+      CKEDITOR.add            
+   </script>
+
+<textarea name="editor2" class="ckeditor"></textarea>
+   <script type="text/javascript">
+      CKEDITOR.replace( 'editor2' );
+      CKEDITOR.add            
+   </script>
+
+<textarea name="editor3" class="ckeditor"></textarea>
+   <script type="text/javascript">
+      CKEDITOR.replace( 'editor3' );
+      CKEDITOR.add            
+   </script>
+
+<textarea name="editor4" class="ckeditor"></textarea>
+   <script type="text/javascript">
+      CKEDITOR.replace( 'editor4' );
+      CKEDITOR.add            
+   </script>
+
+<textarea name="editor5" class="ckeditor"></textarea>
+   <script type="text/javascript">
+      CKEDITOR.replace( 'editor5' );
+      CKEDITOR.add            
+   </script>
+http://www.cilory.com
+
+sr_details
+id 
+order_id
+customer_id
+sub_sr_id
+sr_date
+sr_time
+sr_prob_desc
+sr_img
+in_time
+update_time
+
+
+individual_order
+
+id
+order_id
+vendor_id
+customer_id
+order_amount
+payment_mode
+status
+in_time
+Bro4u introduces Local Electricians near you who are
+ Verified and Trained Professionals. For all your Electrical Repair 
+Service needs book Top and experienced Electricians in Bangalore
+
+<p>M4Service only employed verified and trained electrician, Professionals sent to your doorstep For all your Electrical Repair 
+Service,We provide services at best possible rates through out the Banglore.</p>
+
+<ul style="font-size: 14px">
+	<li>At your door Professionals charge a nominal fee as visiting & consultation,.</li>
+	<li>Electrician will inspect, identify the problem, suggest possible solutions to address the issues, and M4Service communicate the rates for fixing the issu.</li>
+	<li>Free service will be provided if the same issue arises in next 15 days.</li>
+	<li>Expenses on materials purchased are exclusive.</li>
+</ul>
